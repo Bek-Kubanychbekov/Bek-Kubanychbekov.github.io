@@ -630,4 +630,16 @@ width: 321px;
 height: 100px;
 left: calc(50% - 321px/2);
 top: 20px;
+font-family: Martel;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
 }
