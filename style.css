@@ -1,6 +1,6 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 #qw {
   position: absolute;
@@ -601,21 +601,28 @@
   order: 1;
   flex-grow: 0;
   margin: 0px 10px;
-  
 }
-#sz{
-    position: absolute;
-width: 328px;
-height: 333px;
-left: 200px;
-top: 2950px;
-
+#sz {
+  position: absolute;
+  width: 328px;
+  height: 333px;
+  left: 200px;
+  top: 2950px;
 }
 #tb{
-    position: absolute;
-    width: 328px;
-    height: 333px;
-    left: 850px;
-    top: 2950px;
-   
+  position: absolute;
+  width: 328px;
+  height: 333px;
+  left: 850px;
+  top: 2950px;
+}
+#ce{
+  
+position: absolute;
+height: 699px;
+left: 0px;
+right: 2px;
+top: 1314px;
+
+background: #FAFAFA;
 }
