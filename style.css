@@ -625,4 +625,9 @@ right: 2px;
 top: 1314px;
 
 background: #FAFAFA;
+position: static;
+width: 321px;
+height: 100px;
+left: calc(50% - 321px/2);
+top: 20px;
 }
