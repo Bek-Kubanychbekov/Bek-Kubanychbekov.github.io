@@ -22,6 +22,7 @@ nav ul li{
   list-style-type: none;
   padding: 20px;
   color: #737373;
+  padding-right: 20px;
 }
 nav ul div:nth-child(1){
   padding-left: 180px;
