@@ -168,3 +168,6 @@ main section:nth-child(1) p{
   background-color: #dfdddd;
   border-radius: 8px;
 }
+  #cart1 div:nth-child(2){
+  background-color: #0656a1;
+}
