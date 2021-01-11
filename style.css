@@ -510,4 +510,9 @@ color: #FFFFFF;
        padding-left: 65px;
        padding-right: 30px;
   }
+}  @media(max-width:1050px){
+  nav ul{
+      display: flex;
+      flex-direction: column;
+  }
 }
