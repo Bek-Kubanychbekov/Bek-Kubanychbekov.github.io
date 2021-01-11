@@ -238,3 +238,16 @@ main section:nth-child(2) h2{
   letter-spacing: 0.1px;
   color: #252B42;
 }
+
+.cart2 p{
+  max-width: 160px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+
+}
