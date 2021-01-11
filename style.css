@@ -313,3 +313,9 @@ main section:nth-child(3){
   display: flex;
   padding-top: 50px;
 }
+.cont img{
+  height: 50%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+}
