@@ -584,3 +584,8 @@ footer section:nth-child(2) div:nth-child(2){
     padding: 20px;
     justify-content: center;
 }
+
+footer section:nth-child(2) div{
+    text-align: center;
+    margin: 0 auto;
+}
