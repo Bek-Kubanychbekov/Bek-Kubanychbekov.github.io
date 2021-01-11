@@ -629,3 +629,6 @@ footer section:nth-child(1) div{
   flex-direction: column;
   padding: 50px;
 }
+.contr h2, p{
+    padding: 0 20px;
+}
