@@ -467,4 +467,8 @@ display: flex;
 align-items: center;
 color: #FFFFFF;
 
-}
+} 
+@media(max-width:1300px){
+  .div1 img{
+      display: none;
+  }
