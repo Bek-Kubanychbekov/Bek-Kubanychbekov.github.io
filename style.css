@@ -619,3 +619,7 @@ footer section:nth-child(1) div{
 .cart4 p{
   padding: 20px 50px;
 }
+
+.cont h5{
+  margin-top: -10px;
+}
