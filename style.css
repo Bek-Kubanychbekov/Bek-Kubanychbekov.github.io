@@ -220,3 +220,10 @@ main section:nth-child(2) h2{
   padding-top: 45px;
   padding-bottom: 100px;
 }
+.cart2 div{
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100 / 4 - 20px);
+  margin: 20px 10px;
+  background-color: #ffffff;
+}
