@@ -516,3 +516,8 @@ color: #FFFFFF;
       flex-direction: column;
   }
 }
+
+nav ul div{
+    display: flex;
+    justify-content: center;
+}
