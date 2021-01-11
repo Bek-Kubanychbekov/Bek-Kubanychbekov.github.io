@@ -54,3 +54,11 @@ nav ul div:nth-child(2) li{
 .div2{
   padding-top: 200px;
 }
+.div2 h1{
+  max-width: 609px;
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
