@@ -547,3 +547,8 @@ nav ul div:nth-child(1){
     display: flex;
     justify-content: center;
 }
+.cart2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
