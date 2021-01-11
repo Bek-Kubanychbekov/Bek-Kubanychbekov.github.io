@@ -595,3 +595,7 @@ footer section:nth-child(1){
     display: flex;
     flex-wrap: wrap;
 }
+
+footer section:nth-child(1) div{
+  padding: 20px 10px;
+}
