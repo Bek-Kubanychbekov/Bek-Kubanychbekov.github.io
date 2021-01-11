@@ -379,3 +379,7 @@ main section:nth-child(4) p{
   margin: 20px 25px;
 
 }
+.contr div img{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
