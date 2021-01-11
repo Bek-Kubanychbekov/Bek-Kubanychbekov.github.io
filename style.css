@@ -76,3 +76,7 @@ nav ul div:nth-child(2) li{
   align-items: flex-end;
   padding-top: 43px;
 }
+
+.btn0{
+  padding-bottom: 50px;
+}
