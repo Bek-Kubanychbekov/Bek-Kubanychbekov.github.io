@@ -489,3 +489,8 @@ color: #FFFFFF;
     text-align: center;
     max-width: none;
 }
+.div1{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
