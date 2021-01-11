@@ -29,3 +29,8 @@ nav ul li{
 nav ul div:nth-child(1){
   padding-left: 180px;
 }
+nav ul div:nth-child(3){
+  display: flex;
+flex-direction: row;
+justify-content: end;
+}
