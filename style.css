@@ -641,3 +641,11 @@ footer section:nth-child(1) div{
       letter-spacing: 0.1;
   }
 }
+
+.div2 p{
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+}
