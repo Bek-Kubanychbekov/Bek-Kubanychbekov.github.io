@@ -524,3 +524,6 @@ nav ul div{
 nav ul div:nth-child(1){
     padding-left: 0;
 }
+.div1{
+    margin-top: -50px;
+}
