@@ -191,3 +191,13 @@ main section:nth-child(1) p{
  main section:nth-child(2){
   background-color: #FAFAFA;;
 }
+main section:nth-child(2) h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;;
+  text-align: center;
+  padding-top: 125px;
+}
