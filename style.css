@@ -295,4 +295,13 @@ main section:nth-child(3){
   line-height: 57px;
   letter-spacing: 0.2px;
   color: #271c46;
+}  
+.cart4 p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #919191;
+  max-width: 330px;
 }
