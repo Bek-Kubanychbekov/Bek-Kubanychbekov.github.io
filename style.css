@@ -171,3 +171,7 @@ main section:nth-child(1) p{
   #cart1 div:nth-child(2){
   background-color: #0656a1;
 }
+#cart1 div img{
+  max-width: 45px;
+  margin: 0 auto;
+}
