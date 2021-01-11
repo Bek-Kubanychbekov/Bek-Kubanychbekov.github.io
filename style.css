@@ -556,3 +556,11 @@ nav ul div:nth-child(1){
 .img1 img{
     display: none;
 }
+.cart4 h2{
+    max-width: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-right: 200px;
+}
