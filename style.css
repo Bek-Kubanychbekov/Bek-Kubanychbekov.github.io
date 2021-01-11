@@ -103,3 +103,8 @@ nav h3{
   color: #7c7c7c;
   max-width: 340px;
 }
+
+.div2 button{
+  padding: 10px 35px;
+  border-radius: 45px;
+}
