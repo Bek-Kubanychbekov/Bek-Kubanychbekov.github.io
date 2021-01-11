@@ -69,3 +69,10 @@ nav ul div:nth-child(2) li{
 .div4 li:nth-child(3){
   padding-left: 150px;
 }
+
+.div1 img{
+  transform: scale(0.99);
+  display: flex;
+  align-items: flex-end;
+  padding-top: 43px;
+}
