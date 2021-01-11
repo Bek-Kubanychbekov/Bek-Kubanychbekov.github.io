@@ -47,3 +47,6 @@ nav ul li{
   letter-spacing: 0.2px;
   color: #FFFFFF;
 }
+nav ul div:nth-child(2) li{
+  display: flex;
+}
