@@ -62,3 +62,7 @@ nav ul div:nth-child(2) li{
   letter-spacing: 0.2px;
   color: #252B42;
 }
+.div3 li a{
+  color: #737373;
+  text-decoration: none;
+}
