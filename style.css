@@ -305,3 +305,7 @@ main section:nth-child(3){
   color: #919191;
   max-width: 330px;
 }
+.cont{
+  display: flex;
+  flex-direction: column;
+}
