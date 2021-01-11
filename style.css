@@ -498,4 +498,8 @@ color: #FFFFFF;
 .btn0{
     display: flex;
     justify-content: center;
+} 
+   #btn2{
+  height: 37px;
+  margin-top: 20px;    
 }
