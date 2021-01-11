@@ -472,3 +472,9 @@ color: #FFFFFF;
   .div1 img{
       display: none;
   }
+}
+
+.div4 li:nth-child(3) img{
+  padding-left: 10px;
+  align-items: center;
+}
