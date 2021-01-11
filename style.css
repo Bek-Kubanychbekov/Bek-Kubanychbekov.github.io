@@ -8,3 +8,6 @@ header{
   margin: 0;
   background-repeat: no-repeat;
 }
+#body{
+  max-width: width 1375px;
+}
