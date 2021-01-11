@@ -608,3 +608,7 @@ footer section:nth-child(1) div{
       padding-top: 40px;
   }
 }
+
+#cart1 div{
+    margin: 10px 150px;
+}
