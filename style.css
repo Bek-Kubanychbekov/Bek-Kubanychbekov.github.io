@@ -612,3 +612,10 @@ footer section:nth-child(1) div{
 #cart1 div{
     margin: 10px 150px;
 }
+.cart4 h2{
+  padding: 20px 50px;
+}
+
+.cart4 p{
+  padding: 20px 50px;
+}
