@@ -405,3 +405,13 @@ main section:nth-child(4) p{
   letter-spacing: 0.1px;
   color: #252B42;
 }
+.contr button{
+  margin-top: 25px;
+  margin-bottom: 60px;
+  background-color: rgba(240, 230, 140, 0);
+  border: 1px solid #b46600;
+  color: #FFA62B;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+}
