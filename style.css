@@ -623,3 +623,9 @@ footer section:nth-child(1) div{
 .cont h5{
   margin-top: -10px;
 }
+
+.contr{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
