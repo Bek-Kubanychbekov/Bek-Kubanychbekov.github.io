@@ -599,3 +599,12 @@ footer section:nth-child(1){
 footer section:nth-child(1) div{
   padding: 20px 10px;
 }
+
+@media(max-width: 780px){
+  #cart1{
+      display: felx;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 40px;
+  }
+}
