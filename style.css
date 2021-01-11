@@ -552,3 +552,7 @@ nav ul div:nth-child(1){
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.img1 img{
+    display: none;
+}
