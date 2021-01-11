@@ -541,3 +541,9 @@ nav ul div:nth-child(1){
 .div4{
     margin-top: -10px;
 }
+  
+.div4 li:nth-child(3){
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
