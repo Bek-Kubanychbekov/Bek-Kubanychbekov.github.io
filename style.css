@@ -575,3 +575,8 @@ nav ul div:nth-child(1){
 .cont{
     padding-left: 50px;
 }
+footer section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
