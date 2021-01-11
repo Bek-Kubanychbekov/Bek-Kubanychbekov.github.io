@@ -445,3 +445,10 @@ line-height: 24px;
 letter-spacing: 0.2px;
 color: #FFFFFF;
 }
+
+footer section:nth-child(2){
+  background-color: #252B42;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
