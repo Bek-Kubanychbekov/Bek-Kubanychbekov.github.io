@@ -503,3 +503,11 @@ color: #FFFFFF;
   height: 37px;
   margin-top: 20px;    
 }
+@media(max-width:1150px){
+  .div4 li:nth-child(3){
+      padding: 0;
+      align-items: center;
+       padding-left: 65px;
+       padding-right: 30px;
+  }
+}
