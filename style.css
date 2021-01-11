@@ -530,3 +530,8 @@ nav ul div:nth-child(1){
 .div2{
     margin-top: -100px;
 }
+.div3{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
