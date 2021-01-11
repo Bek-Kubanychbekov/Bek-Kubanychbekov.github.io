@@ -649,3 +649,12 @@ footer section:nth-child(1) div{
   line-height: 25px;
   letter-spacing: 0.1px;
 }
+
+#cart1 div{
+  margin: 10px 120px;
+}
+@media(max-width:650px){
+  #cart1 div{
+      margin: 10px 90px;
+  }
+}
