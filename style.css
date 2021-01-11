@@ -572,3 +572,6 @@ nav ul div:nth-child(1){
     margin: 0 auto;
     padding-right: 200px;
 }
+.cont{
+    padding-left: 50px;
+}
