@@ -114,4 +114,10 @@ nav h3{
   border: 1px solid #784F33;;
   margin-top: 20px;
   
+} 
+#btn2{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #784F33;;
+  color: #784F33;;
+  margin-left: 10px;
 }
