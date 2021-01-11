@@ -456,3 +456,15 @@ footer section:nth-child(2){
   padding: 0 15px;
   padding: 20px;
 }
+
+footer section:nth-child(2) div:nth-child(1){
+  font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+
+}
