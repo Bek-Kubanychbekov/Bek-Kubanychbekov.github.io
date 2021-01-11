@@ -89,3 +89,8 @@ nav h3{
   letter-spacing: 0.1px;
   color: #252B42;
 }
+.div1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 220px;
+}
