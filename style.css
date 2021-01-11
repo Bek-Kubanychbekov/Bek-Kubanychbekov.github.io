@@ -521,3 +521,6 @@ nav ul div{
     display: flex;
     justify-content: center;
 }
+nav ul div:nth-child(1){
+    padding-left: 0;
+}
