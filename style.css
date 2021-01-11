@@ -330,3 +330,12 @@ main section:nth-child(3){
   color:  #252B42;;
 
 }
+.cont h6{
+  padding-left: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color:  #919191 ;
+}
