@@ -103,17 +103,23 @@ nav h3{
   border-radius: 45px;
 }
 #btn1{
-  background-color: #784F33;;
-  color: #FFFFFF;
+  color: black;
   border: 1px solid #784F33;;
   margin-top: 20px;
   
 }
+#btn1:hover {
+  background-color: #784f33;
+  color: white;
+}
 #btn2{
-  background-color: rgba(255, 255, 255, 0);
   border: 1px solid #784F33;;
-  color: #784F33;;
+  color: black;
   margin-left: 10px;
+}
+#btn2:hover {
+  background-color: #784f33;
+  color: white;
 }
 main section:nth-child(1){
   background-color:white;
@@ -279,6 +285,12 @@ main section:nth-child(3){
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+ 
+}
+.pustoi {
+  background: #000;
+  width: 1444px;
+  height: 451px;
 }
 .cart4 h2{
   max-width: 330px;
@@ -404,6 +416,10 @@ main section:nth-child(4) p{
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 700;
+}
+.contr button:hover {
+  background-color: #b46600;
+  color: white;
 }
 footer section:nth-child(1){
   background-color: #26368d;
