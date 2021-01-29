@@ -1,11 +1,16 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat';
 }
+
 header{
   background-image: url(./img/cover\ \(5\).png);
   margin: 0;
+  width: 100%;
+  height: 900px;
+  top: 100px;
   background-repeat: no-repeat;
 }
 #body{
@@ -33,7 +38,8 @@ flex-direction: row;
 justify-content: end;
 }
 .div3{
-  padding-left: 30px;
+  padding-right: 80px;
+  overflow: hidden;
 }
 nav ul li{
   font-style: normal;
@@ -43,6 +49,7 @@ nav ul li{
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+
 }
 nav ul div:nth-child(2) li{
   display: flex;
@@ -76,7 +83,7 @@ nav ul div:nth-child(2) li{
   padding-bottom: 50px;
 }
 nav h3{
-  padding-top: 20px;
+  padding-top: -700px;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -151,11 +158,13 @@ main section:nth-child(1) p{
 
 }
 #cart1{
+
   display: flex;
   max-width: 900px;
   margin: 0 auto;
   padding-top: 80px;
   padding-bottom: 100px;
+
 }
 #cart1 div{
   display: flex;
@@ -167,6 +176,7 @@ main section:nth-child(1) p{
   height: 140px;
   background-color: #dfdddd;
   border-radius: 8px;
+
 }
 #cart1 div:nth-child(2){
   background-color: #0656a1;
@@ -176,7 +186,7 @@ main section:nth-child(1) p{
   margin: 0 auto;
 }
 #cart1 div h5{
-  text-align: center;
+  padding-left:78px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -185,6 +195,7 @@ main section:nth-child(1) p{
   color: #000000;
   padding-top: 15px;
 }
+
 #cart1 div:nth-child(2) h5{
   color: #ffffff;
 }
@@ -287,11 +298,7 @@ main section:nth-child(3){
   padding-bottom: 100px;
  
 }
-.pustoi {
-  background: #000;
-  width: 1444px;
-  height: 451px;
-}
+
 .cart4 h2{
   max-width: 330px;
   font-style: normal;
@@ -398,6 +405,7 @@ main section:nth-child(4) p{
   letter-spacing: 0.2px;
 }
 .contr div h5{
+  padding-right:100px;
   padding-top: 15px;
   font-style: normal;
   font-weight: bold;
@@ -405,8 +413,9 @@ main section:nth-child(4) p{
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #0a0a0a;
 }
+
 .contr button{
   margin-top: 25px;
   margin-bottom: 60px;
@@ -422,7 +431,7 @@ main section:nth-child(4) p{
   color: white;
 }
 footer section:nth-child(1){
-  background-color: #26368d;
+  background-color: #B7A5A5;
 }
 footer section:nth-child(1){
   display: flex;
@@ -431,24 +440,25 @@ footer section:nth-child(1){
   padding-right: 200px;
 }
 h5{
-  padding-left: 45px;
+  padding-left: 100px;
   padding-bottom: 20px;
   font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.1px;
-color: #FFFFFF;
+color: #0c0c0c;
 }
 li{
   list-style-type: none;
-  padding: 0;
+  padding: 1px;
+  padding-left: 100px;
   font-style: normal;
-font-weight: 600;
+font-weight: 400px;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.2px;
-color: #FFFFFF;
+color: #0f0f0f;
 }
 footer section:nth-child(2){
   background-color: #252B42;
@@ -458,6 +468,7 @@ footer section:nth-child(2){
 }
 footer section:nth-child(2) img{
   padding: 0 15px;
+
   padding: 20px;
 }
 footer section:nth-child(2) div:nth-child(1){
@@ -468,13 +479,15 @@ line-height: 24px;
 letter-spacing: 0.2px;
 display: flex;
 align-items: center;
-color: #FFFFFF;
+color: #d6d6d6;
 
 }
+
 @media(max-width:1300px){
   .div1 img{
       display: none;
   }
+
   .div4 li:nth-child(3) img{
       padding-left: 10px;
       align-items: center;

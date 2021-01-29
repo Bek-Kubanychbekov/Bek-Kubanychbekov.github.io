@@ -1,0 +1,244 @@
+#share-check{
+    display: none;
+}
+#burger-check{
+    display: none;
+}
+
+.share-check{
+    display: block;
+    position: fixed;
+    border: 1px solid rgba(200, 109, 215, 1);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    right: -200px;
+    padding: 10px;
+    top: 37px;
+    transition: right 0.5s;
+}
+.nav-check{
+    width: 45%;
+}
+.nav-check ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.nav-check a{
+    transition: 0.3s;
+}
+#burger-check:checked~.nav-check a{
+    font-size: 0;
+}
+#share-check:checked~.share-check{
+    display: block;
+    position: absolute;
+    right: 120px;
+}
+label{
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+    #header{
+        position: relative;
+        padding: 19px 15px 13px;
+    }
+    #header div:first-of-type{
+        position: absolute;
+        left: calc(50% - 50px);
+    }
+    #header div:last-of-type{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .nav-check {
+        position: fixed;
+        top: 67px;
+        right: -330px;
+        width: 300px;
+        height: 100vh;
+        display: block;
+        background-color: rgb(133, 38, 148);
+        opacity: 75%;
+        color: white;
+        transition: right 0.5s;
+        padding: 15px 15px;
+        box-sizing: border-box;
+    }
+        
+    .nav-check ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    .nav-check a{
+        color: white;
+    }
+    .nav-check li{
+        margin-top: 35px;
+        list-style: none;
+    }
+    .nav-check a:hover{
+        padding: 10px 30px;
+        border-radius: 50px;
+    }
+    .nav-check a:active{
+        padding: 10px 30px;
+        border-radius: 50px;
+        background-color: rgba(255, 195, 0, 1)  ;
+    }
+    #burger-check:checked~.nav-check{
+        right: 0;
+        position: absolute;
+    }
+    #burger-check:checked~.nav-check a{
+        font-size: 18px;
+    }
+    input::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.726);
+    }
+    input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.726);
+    }
+    .share-check{
+        position: fixed;
+        display: block;
+        border: 1px solid rgb(255, 255, 255);
+        left: -250px;
+        padding: 8px;
+        width: 200px;
+        top: 80px;
+        transition: left 0.5s;
+        color: blanchedalmond;
+    }
+    #share-check:checked~.share-check{
+        left: 25px;
+        top: 80px;
+        position: block;
+    }
+}
+#header{ display: flex;
+     justify-content: space-between;
+     padding: 19px 30px 0; align-items:
+     center; margin-bottom: 19px; }
+     .nava{ text-decoration: none;
+      color: rgba(51, 51, 51, 1);
+      font-size: 16px; 
+     line-height: 24px; } 
+     li{ list-style-type: none;
+     }
+      .nava:hover{ font-size: 17px;
+      color: rgb(255, 255, 255);
+       border-radius: 15px;
+    background-color: rgb(26, 57, 126);
+     padding: 10px 30px; } 
+     #header div:first-of-type h2{
+          font-size: 40px;
+           line-height:48px;
+            font-family: 'Poppins', sans-serif;
+             color: rgba(51, 51, 51, 1); 
+             margin-bottom: 2px; }
+             #header div:last-of-type{ 
+                display: flex; } 
+                #shape{ 
+                    width: 24px;
+                     height: 23.83px; } 
+                     #shape:hover{
+                          opacity: 50%; 
+                          width: 25px;
+                             height: 24.83px; }
+                              #burger{ width: 24px;
+                                 height: 20px;
+                                  margin-left: 32.19px;
+                                   padding-bottom: 3px; } 
+                                   #burger:hover{ opacity: 50%;
+                                     width: 25px;
+                                      height: 21px; } 
+                                      #share-check{
+                                           display: none; } 
+                                      #burger-check{ 
+ display: none; }
+  .share-check{ display: block;
+ position: fixed;
+  border: 1px solid rgba(200, 109, 215, 1);
+   background-color: rgba(255, 255, 255, 0);
+ border-radius: 25px;
+  right: -200px; 
+  padding: 10px; 
+  top: 37px; 
+  transition: right 0.5s; } 
+  .nav-check{ width: 45%; } 
+  .nav-check ul{ display: flex; 
+    justify-content: space-between; 
+    padding-top: 15px; 
+    padding-left: 0px; } 
+    .nav-check a{ transition: 0.3s; } 
+    #burger-check:checked~.nav-check a{ 
+        font-size: 0; } 
+        #share-check:checked~.share-check{ 
+            display: block; 
+            position: absolute; 
+            right: 120px; } 
+            label{ cursor: pointer; } 
+            @media(max-width:700px){ #header
+                { position: relative; 
+                padding: 19px 15px 13px; } 
+                #header div:first-of-type{ 
+                    position: absolute; 
+                    left: calc(50% - 50px); } 
+                    #header div:last-of-type{ width: 100%;
+                         display: flex; 
+                         justify-content: space-between; 
+                         margin: 0px; } 
+                         .nav-check { position: fixed; 
+                            top: 67px; 
+                            right: -330px; 
+                            width: 300px; 
+                            height: 100vh; 
+                            display: block; 
+                            background-color: rgb(0, 0, 0); 
+                            opacity: 75%; 
+                            color: white; 
+                            transition: right 0.5s; 
+                            padding: 15px 15px; 
+                            box-sizing: border-box; } 
+                            .nav-check ul{ text-align: center; 
+display: flex; 
+flex-direction: column; 
+padding-top: 15px; 
+padding-left: 0px; } 
+.nav-check a{ color: white; } 
+.nav-check li{ margin-top: 35px; 
+    list-style: none; } 
+    .nav-check a:hover{ padding: 10px 30px; 
+        border-radius: 50px; } 
+        .nav-check a:active{ padding: 10px 30px; 
+            border-radius: 50px; 
+            background-color: rgba(255, 195, 0, 1) ; } 
+            #burger-check:checked~.nav-check{ right: 0;
+ position: absolute; } 
+ #burger-check:checked~.nav-check a{ font-size: 18px; } 
+ input::-moz-placeholder { color: rgba(255, 255, 255, 0.726); }
+  input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.726); } 
+  .share-check{ position: fixed;
+     display: block; 
+     border: 1px solid rgb(255, 255, 255); 
+     left: -250px; 
+     padding: 8px; 
+     width: 200px; 
+     top: 80px; 
+     transition: left 0.5s; 
+     color: blanchedalmond; }
+    #share-check:checked~.share-check{
+         left: 25px;
+          top: 80px; 
+          position: block; 
+
+        }
+}
