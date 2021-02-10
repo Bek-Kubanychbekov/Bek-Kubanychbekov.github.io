@@ -87,6 +87,7 @@ label{
     .nav-check a:hover{
         padding: 10px 30px;
         border-radius: 50px;
+        
     }
     .nav-check a:active{
         padding: 10px 30px;
@@ -133,11 +134,16 @@ label{
      line-height: 24px; } 
      li{ list-style-type: none;
      }
-      .nava:hover{ font-size: 17px;
-      color: rgb(255, 255, 255);
-       border-radius: 15px;
-    background-color: rgb(26, 57, 126);
-     padding: 10px 30px; } 
+      .nava:hover{ 
+        
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: black;
+        padding: 7px 10px;
+        color: white;
+        background-color: #000000;
+    
+      }
      #header div:first-of-type h2{
           font-size: 40px;
            line-height:48px;
@@ -242,3 +248,4 @@ padding-left: 0px; }
 
         }
 }
+
