@@ -8,7 +8,7 @@
 .share-check{
     display: block;
     position: fixed;
-    border: 1px solid rgba(200, 109, 215, 1);
+    border: 1px solid rgb(18, 16, 19);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 25px;
     right: -200px;
@@ -62,7 +62,7 @@ label{
         width: 300px;
         height: 100vh;
         display: block;
-        background-color: rgb(133, 38, 148);
+        background-color: rgb(20, 20, 20);
         opacity: 75%;
         color: white;
         transition: right 0.5s;
