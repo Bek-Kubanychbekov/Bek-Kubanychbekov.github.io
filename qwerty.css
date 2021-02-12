@@ -110,13 +110,13 @@ label{
     .share-check{
         position: fixed;
         display: block;
-        border: 1px solid rgb(255, 255, 255);
+        border: 1px solid rgb(5, 5, 5);
         left: -250px;
         padding: 8px;
         width: 200px;
         top: 80px;
         transition: left 0.5s;
-        color: blanchedalmond;
+        color: rgb(0, 0, 0);
     }
     #share-check:checked~.share-check{
         left: 25px;
@@ -146,7 +146,7 @@ label{
           font-size: 40px;
            line-height:48px;
             font-family: 'Poppins', sans-serif;
-             color: rgba(51, 51, 51, 1); 
+             color: rgb(255, 235, 235); 
              margin-bottom: 2px; }
              #header div:last-of-type{ 
                 display: flex; } 
@@ -170,7 +170,7 @@ label{
  display: none; }
   .share-check{ display: block;
  position: fixed;
-  border: 1px solid rgba(200, 109, 215, 1);
+  border: 1px solid rgb(15, 15, 15);
    background-color: rgba(255, 255, 255, 0);
  border-radius: 25px;
   right: -200px; 
@@ -197,7 +197,7 @@ label{
                     position: absolute; 
                     left: calc(50% - 50px); } 
                     #header div:last-of-type{ width: 100%;
-                         display: flex; 
+                             display: flex; 
                          justify-content: space-between; 
                          margin: 0px; } 
                          .nav-check { position: fixed; 
@@ -206,7 +206,7 @@ label{
                             width: 300px; 
                             height: 100vh; 
                             display: block; 
-                            background-color: rgb(133, 133, 133); 
+                            background-color: rgb(7, 0, 0); 
                             opacity: 75%; 
                             color: white; 
                             transition: right 0.5s; 
@@ -224,21 +224,21 @@ padding-left: 0px; }
         border-radius: 50px; } 
         .nav-check a:active{ padding: 10px 30px; 
             border-radius: 50px; 
-            background-color: rgba(255, 195, 0, 1) ; } 
+            background-color: rgb(85, 85, 84) ; } 
             #burger-check:checked~.nav-check{ right: 0;
  position: absolute; } 
  #burger-check:checked~.nav-check a{ font-size: 18px; } 
  input::-moz-placeholder { color: rgba(255, 255, 255, 0.726); }
-  input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.726); } 
+  input::-webkit-input-placeholder { color: rgba(20, 20, 20, 0.726); } 
   .share-check{ position: fixed;
      display: block; 
-     border: 1px solid rgb(255, 255, 255); 
+     border: 1px solid rgb(5, 5, 5); 
      left: -250px; 
      padding: 8px; 
      width: 200px; 
      top: 80px; 
      transition: left 0.5s; 
-     color: blanchedalmond; }
+     color: rgb(14, 13, 13); }
     #share-check:checked~.share-check{
          left: 25px;
           top: 80px; 
